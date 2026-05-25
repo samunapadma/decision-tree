@@ -6,7 +6,7 @@ with open("decision_tree_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("🎓 Student Pass / Fail Predictor")
-st.write("மாணவர் தகவல் கொடுத்து result பாருங்க!")
+st.write("Enter student details to predict the result!")
 
 # Input fields
 hours = st.slider("Hours Studied", 1, 10, 5)
